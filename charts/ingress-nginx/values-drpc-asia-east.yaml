@@ -809,6 +809,7 @@ controller:
         enabled: false
       nodeSelector:
         kubernetes.io/os: linux
+        name: node-3-kr18
       tolerations: []
       # -- Labels to be added to patch job resources
       labels: {}
